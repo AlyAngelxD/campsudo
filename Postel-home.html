@@ -11,18 +11,26 @@
                 background-size: cover;
             }
             
+            /* Logo */
             #logo {
-                background-color: rgba(210, 164, 121, 0.9);
+                background-color: rgba(210, 164, 121, 0.8);
                 border: 2px solid #ccc;
                 top: 25%;
                 left: 10%;
                 height: auto;
                 width: 80%;
             }
-            
+            #logo img {
+                height: 250px;
+                width: auto;
+                margin-top: 50px;
+            }            
             #logo p {
+                margin-top: -200px;
                 font-size: 700%;
             }
+            
+            /* Button */
             .button {
                 padding-top: 7px;
                 padding-bottom: 7px;
@@ -39,10 +47,9 @@
                 display: inline-block;
                 margin-top: 9px;
             }
-		  
             .button:hover {
-                background-color: #8888ff}
-
+                background-color: #8888ff
+            }
             .button:active {
                 background-color: #ccc;
                 transform: translateY(4px);
@@ -52,11 +59,14 @@
                 float: right;
                 margin-right: 20px;
             }
-        </style>
+	  </style>
 	</head>
 	<body>
         <div id="logo">
-            <p>Postel</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Pencil_icon_vector.svg/2000px-Pencil_icon_vector.svg.png"/>
+            <p>
+                Postel
+            </p>
         </div>
 		<div class="divider">
             <a href="/postel-login.html" class="button">
