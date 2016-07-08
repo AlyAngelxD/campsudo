@@ -1,6 +1,9 @@
 html, body {
     background-color: #d2a479;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0px 0px 16px #666;
 }
 
 /* Logo */
@@ -24,6 +27,7 @@ html, body {
     margin-top: -50px;
     color: #fff;
     font-size: 36px;
+    font-weight: bold;
     text-shadow: 0px 0px 16px #333;
 }
 
@@ -103,11 +107,12 @@ li a:hover:not(.active) {
     position: relative;
     margin: 25px;
     margin-left: 175px;
-    width: 25%;
+    width: 30%;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+    font-family: "Lucida Console", Monaco, monospace;
     background-color: aliceblue;
     background-position: 10px 10px;
     background-repeat: no-repeat;
@@ -116,7 +121,7 @@ li a:hover:not(.active) {
     transition: width 0.4s ease-in-out;
 }	
 #search-bar form  input[type=text]:focus {
-    width: 50%;
+    width: 60%;
 }
 
 /* Content */
@@ -127,8 +132,8 @@ li a:hover:not(.active) {
     height: 85%;
     width: 100%;
     overflow-x: hidden;
-    overflow-y: scroll;
 }
-#content div {
-    padding-left: 150px;    
+#content > div {
+    padding-left: 175px;
+    padding-right: 25px;
 }
