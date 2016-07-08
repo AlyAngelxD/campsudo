@@ -1,17 +1,122 @@
 <html>
-    <head>
-        <title>
-          About - Postel
-        </title>
-     </head>
-     <body>
+   <head>
+       <title>
+           About - Postel
+       </title>
+       <link type="text/css" rel="stylesheet" href="/Postel-main.css"/>
+       <style>
+           h1, h2 {
+                font-size: 30px;
+           }
+           
+           .creator {
+                height: auto;
+                width: 200px;
+                text-align: left;
+           }
+           .creator:hover {
+                border-right-color: #ccc;
+                border-right-style: solid;
+                border-right-width: 1px;
+                background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to right, rgba (0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=1 ); /* IE6-9 */
+                transition-duration: 1.5s;
+           }
+           .creator a {
+               text-decoration: none;
+               color: #fff;
+           }
+       </style>
+    </head>
+    <body>
         <div id="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Pencil_icon_vector.svg/2000px-Pencil_icon_vector.svg.png"/>
+            <p>
+                Postel
+           </p>
         </div>
         <ul id="main-menu">
+            <li>
+                <a class="active" href="/Postel-about.html">
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="/Postel-feed.html">
+                    Feed
+                </a>
+            </li>
+            <li>
+                <a href="/Postel-friends.html">
+                    Friends
+                </a>
+            </li>
+            <li>
+                <a href="/Postel-post.html">
+                    Post
+                </a>
+            </li>
+            <li>
+                <a href="/Postel-profile.html">
+                    Profile
+                </a>
+            </li>
+            <li>
+                <a href="/Postel-home.html">
+                    Log Out
+                </a>
+            </li>
         </ul>
         <div id="search-bar">
+            <form>
+                <input type="text" name="search" placeholder="Search bloggers..."/>
+            </form>
         </div>
-        <div id="content">
+        <div id="content"> 
+            <div>
+                <h1>
+                    ABOUT
+                </h1>
+                <p>
+                    Postel is a site for you to create blog posts and share it with the world! On Postel, you can blog about whatever you want, and you can gain followers or follow other people. You can also customize the font, colors, text arrangement and more! Postel is an interactive page for people who love writing and reading stories/blog posts.
+                </p>
+                <h2>
+                    THE CREATORS
+                </h2>
+                <p>
+                    Click for details!
+                </p>
+                <div class="creator">
+                    <a href="http://alyssa-young.appspot.com/" target="_blank">
+                        <p>
+                            Alyssa Young
+                        </p>
+                    </a>
+                </div>
+                <div class="creator">
+                    <a href="http://nelly-sin.appspot.com" target="_blank">
+                        <p>
+                        Nelly Sin
+                    </p>
+                    </a>
+                </div>
+                <div class="creator">
+                    <a href="http://depaz-fatima.appspot.com" target="_blank">
+                        <p>
+                        Fatima De Paz
+                    </p>
+                    </a>
+                </div>
+                <div class="creator">
+                    <a href="http://kelly-phung.appspot.com" target="_blank">
+                        <p>
+                        Kelly Phung
+                    </p>
+                    </a>
+                </div>
+            </div>
         </div>
-     </body>
+    </body>
 </html>
