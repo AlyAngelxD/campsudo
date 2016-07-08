@@ -1,10 +1,72 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Postel
-        </title>
-    </head>
-    <body>
-    
-    </body>
+	<head>
+		<title>
+			Home - Postel
+		</title>
+        <link type="text/css" rel="stylesheet" href="/Postel-main.css"/>
+        <style>
+            html {
+                background-image: url(http://www.feedster.com/wp-content/uploads/2016/04/F14.jpg);
+                background-size: cover;
+            }
+            
+            #logo {
+                background-color: rgba(210, 164, 121, 0.9);
+                border: 2px solid #ccc;
+                top: 25%;
+                left: 10%;
+                height: auto;
+                width: 80%;
+            }
+            
+            #logo p {
+                font-size: 700%;
+            }
+            .button {
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 10px;
+                padding-right: 10px;
+                text-decoration: none;
+                font-size: 16px;
+                cursor: pointer;
+                color: #fff;
+                text-shadow: 2px 2px #444; 
+                background-color: #9999ff;
+                border-radius: 4px;
+                box-shadow: 2px 3px 2px 2px #888;
+                display: inline-block;
+                margin-top: 9px;
+            }
+		  
+            .button:hover {
+                background-color: #8888ff}
+
+            .button:active {
+                background-color: #ccc;
+                transform: translateY(4px);
+            }
+            .divider {
+                display: inline-block;
+                float: right;
+                margin-right: 20px;
+            }
+        </style>
+	</head>
+	<body>
+        <div id="logo">
+            <p>Postel</p>
+        </div>
+		<div class="divider">
+            <a href="/postel-login.html" class="button">
+                Create Account
+            </a>
+        </div>
+		<div class="divider">
+            <a href="/postel-login.html" class="button">
+                Login
+            </a>
+        </div>
+	</body>
 </html>
